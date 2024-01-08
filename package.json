@@ -1,0 +1,29 @@
+{
+  "name": "svg-generator",
+  "version": "1.0.0",
+  "description": "node.js command-line logo generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubabaKhandaker/SVG-Generator.git"
+  },
+  "author": "rubaba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RubabaKhandaker/SVG-Generator/issues"
+  },
+  "homepage": "https://github.com/RubabaKhandaker/SVG-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": []
+}
