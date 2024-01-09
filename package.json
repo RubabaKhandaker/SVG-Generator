@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/RubabaKhandaker/SVG-Generator#readme",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquirer": "^9.2.12"
   },
   "devDependencies": {
