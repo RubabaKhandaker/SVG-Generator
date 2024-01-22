@@ -4,9 +4,9 @@ const inquirer = require('inquirer');
 const {Square, Triangle, Circle} = require('./lib/shapes');
 
 
-// promt questions 
+// prompt questions 
 
-inquirer.prompt([
+const quests = [
 
     {
       type: 'input',
@@ -35,4 +35,28 @@ inquirer.prompt([
       default: '',
     },
 
-  ])
+  ];
+
+
+  
+  inquirer.prompt(quests).then((ans) => {
+
+    let shape;
+
+    shape.setColor(ans['colourShape']);
+
+    switch (ans['typeShape']) {
+
+        case 'Square':
+            shape = new Square();
+            break;
+        case 'Triangle':
+            shape = new Triangle();
+            break;
+        case 'Circle':
+            shape = new Circle();
+            break;
+
+    }
+
+});

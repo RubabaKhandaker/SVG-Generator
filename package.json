@@ -21,7 +21,7 @@
   "homepage": "https://github.com/RubabaKhandaker/SVG-Generator#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "inquirer": "^9.2.12"
+    "inquirer": "^8.2.4"
   },
   "devDependencies": {
     "jest": "^29.7.0"
